@@ -4,7 +4,7 @@ const app = express();
 
 global.__basedir = __dirname;
 
-var corsOptions = {
+const corsOptions = {
   origin: "http://localhost:8081"
 };
 
